@@ -1,0 +1,348 @@
+.frameChild {
+  background: linear-gradient(180deg, #7ad3ff, #4fbaf0);
+  height: 131px;
+  z-index: 0;
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  position: relative;
+  width: 6px;
+}
+.frameItem {
+  background: linear-gradient(180deg, #08b295, #0c977f);
+  height: 109px;
+  z-index: 1;
+}
+.frameInner {
+  background: linear-gradient(180deg, #ff5959, #ef2c2c);
+  height: 28px;
+  z-index: 2;
+}
+.ellipseDiv {
+  position: absolute;
+  margin: 0 !important;
+  top: 12px;
+  left: calc(50% - 4.5px);
+  border-radius: 50%;
+  background-color: var(--primary-default);
+  width: 9px;
+  height: 9px;
+  display: none;
+  z-index: 3;
+}
+.rectangleParent {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-11xs);
+}
+.instanceChild {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--white);
+  border-right: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+  box-sizing: border-box;
+  height: 9px;
+}
+.userpic {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 44.11px;
+  background: linear-gradient(180deg, #6989fe, #3c64f4);
+  border: 0.4px solid var(--colors-grey-grey-3);
+  box-sizing: border-box;
+}
+.label,
+.state,
+.userpic {
+  position: absolute;
+}
+.state {
+  height: calc(100% - 14.55px);
+  width: calc(100% - 14.55px);
+  top: 0;
+  right: 1.82px;
+  bottom: 14.55px;
+  left: 12.73px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #08b295, #0c977f);
+  border: 0.9px solid var(--white);
+  box-sizing: border-box;
+}
+.label {
+  height: 36.36%;
+  width: 54.55%;
+  top: 31.82%;
+  left: 22.73%;
+  line-height: 8.91px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avt,
+.div {
+  position: relative;
+}
+.avt {
+  width: 20px;
+  height: 20px;
+}
+.div {
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+  color: var(--body-text);
+  display: none;
+}
+.frameParent,
+.rectangleGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rectangleGroup {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.frameParent {
+  width: 51px;
+  height: 191px;
+  justify-content: flex-end;
+}
+.rectangleDiv {
+  background: linear-gradient(180deg, #ff5959, #ef2c2c);
+  height: 25px;
+}
+.frameChild1,
+.frameChild2,
+.rectangleDiv {
+  position: relative;
+  width: 10px;
+}
+.frameChild1 {
+  background: linear-gradient(180deg, #08b295, #0c977f);
+  height: 39px;
+}
+.frameChild2 {
+  flex: 1;
+  background: linear-gradient(180deg, #7ad3ff, #4fbaf0);
+}
+.rectangleContainer {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.userpicIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 44.11px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.label1 {
+  position: absolute;
+  height: 36.36%;
+  width: 54.55%;
+  top: 31.82%;
+  left: 22.73%;
+  line-height: 8.91px;
+  font-weight: 600;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.frameGroup {
+  width: 51px;
+  height: 229px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: -1px;
+}
+.frameChild3,
+.frameChild4 {
+  position: relative;
+  width: 10px;
+}
+.frameChild3 {
+  background: linear-gradient(180deg, #ff5959, #ef2c2c);
+  height: 18px;
+  display: none;
+}
+.frameChild4 {
+  background: linear-gradient(180deg, #08b295, #0c977f);
+  height: 75px;
+}
+.frameContainer {
+  width: 52px;
+  height: 222px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: -1px;
+}
+.frameChild7 {
+  position: relative;
+  background: linear-gradient(180deg, #08b295, #0c977f);
+  width: 10px;
+  height: 40px;
+}
+.frameParent1 {
+  width: 51px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: -1px;
+}
+.frameChild10,
+.frameChild9 {
+  position: relative;
+  width: 10px;
+}
+.frameChild9 {
+  background: linear-gradient(180deg, #ff5959, #ef2c2c);
+  height: 42px;
+}
+.frameChild10 {
+  background: linear-gradient(180deg, #08b295, #0c977f);
+  height: 51px;
+}
+.userpic1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 44.11px;
+  background: linear-gradient(180deg, #fca549, #f39531);
+  border: 0.4px solid var(--colors-grey-grey-3);
+  box-sizing: border-box;
+}
+.frameParent2 {
+  width: 51px;
+  height: 211px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: -1px;
+}
+.frameChild13 {
+  position: relative;
+  background: linear-gradient(180deg, #08b295, #0c977f);
+  width: 10px;
+  height: 46px;
+}
+.frameParent3 {
+  width: 52px;
+  height: 191px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: -1px;
+}
+.frameChild16 {
+  position: relative;
+  background: linear-gradient(180deg, #08b295, #0c977f);
+  width: 10px;
+  height: 94px;
+}
+.frameParent4 {
+  width: 51px;
+  height: 222px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: -1px;
+}
+.userpic3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 44.11px;
+  background: linear-gradient(180deg, #08b295, #0c977f);
+  border: 0.4px solid var(--colors-grey-grey-3);
+  box-sizing: border-box;
+}
+.label7 {
+  position: absolute;
+  top: 26.82%;
+  left: 17.73%;
+  line-height: 8.91px;
+  font-weight: 600;
+}
+.frameParent5,
+.frameParent6 {
+  width: 51px;
+  height: 191px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: -1px;
+}
+.frameParent6 {
+  width: 52px;
+  height: 229px;
+}
+.avt9,
+.div9 {
+  position: relative;
+}
+.avt9 {
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+.div9 {
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+  color: var(--body-text);
+}
+.instanceParent {
+  position: relative;
+  width: 100%;
+  height: 212px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 7.27px;
+  color: var(--white);
+  font-family: var(--font-inter);
+}
